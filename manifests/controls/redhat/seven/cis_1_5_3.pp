@@ -1,5 +1,5 @@
 class demo_cis::controls::redhat::seven::cis_1_5_3 (
-  $enable = true
+  $enable = false,
 ){
   if $enable == true {
     file_line {'cis_1_5_3_sysctl.conf':

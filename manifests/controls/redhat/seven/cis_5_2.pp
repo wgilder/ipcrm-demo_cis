@@ -1,5 +1,5 @@
 class demo_cis::controls::redhat::seven::cis_5_2 (
-  $enable = true
+  $enable = false
 ){
   if $enable == true {
     class {'::ssh':

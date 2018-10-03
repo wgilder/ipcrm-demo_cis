@@ -1,5 +1,5 @@
 class demo_cis::controls::redhat::seven::cis_1_7_1_1 (
-  $enable = false
+  $enable = false,
 ){
   if $enable == true {
     file {'cis_1_7_1_1_motd':
